@@ -2,12 +2,12 @@ import './App.css'
 import React from 'react';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import Header from './components/Header'
-import Home from './Home';
-import About from './About';
-import Features from './Features';
-import Pricing from './Pricing';
-import FAQ from './FAQ';
-import Blogs from './Blogs';
+import Home from './pages/home/Home';
+import About from './pages/about/About';
+import Features from './pages/features/Features';
+import Pricing from './pages/pricing/Pricing';
+import FAQ from './pages/faq/FAQ';
+import Blogs from './pages/blogs/Blogs';
 
 function App() {
   return (
