@@ -9,6 +9,7 @@ function Home() {
       <Hero/>
       <OurProject/>
       <Frequently/>
+      hellgit 
     </div>
   )
 }
